@@ -4,6 +4,8 @@ A Retrieval-Augmented Generation (RAG) assistant that answers questions about te
 
 The default corpus is the FastAPI tutorial (URLs configured in `config.py`); the ingester also accepts any local markdown / PDF / text files dropped into `./docs`.
 
+## > 📸 Screenshots of the Streamlit UI and API responses are available in the [`/demo images`](./demo%20images) folder.
+
 ## Features
 
 - **LangGraph workflow** with `retrieve → grade_documents → (web_search) → generate → grade_hallucination → record_exchange` nodes
